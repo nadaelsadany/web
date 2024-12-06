@@ -1,0 +1,131 @@
+.lightgrayc{
+    
+    background-color:lightgray;
+    text-align:;
+}
+        
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.text {
+	flex: 1;
+	margin-left: 100px;
+	*/
+}
+.image {
+	flex: 1;
+	text-align: right; /* Ensures the image stays on the right */
+	margin-right: 150px;
+}
+ul{
+    /*border:2px solid black;*/
+    background-color:lightgray;
+}
+
+li {
+    padding:8px;
+    margin:10px;
+    color: black;
+    list-style:none;
+    display:inline-block;
+    font:bold 15px teko;
+}
+*{
+    padding:0;
+    margin:0;
+}
+
+ul li:first-child{
+    margin-left:150px;
+    margin-right:500px;
+}
+
+.button {
+	width: 90px;
+	height: 30px;
+	border: none;
+	color: white; /* Text color */
+	font-size: 10px;
+	text-align: center;
+	cursor: pointer;
+	border-radius: 5px; /* Optional: Add rounded corners */
+	margin:10px;
+}
+.orange {
+	background-color: orange;
+}
+.black {
+	background-color: black;
+}
+button:hover {
+	background-color: white;
+    color: black;
+    cursor: pointer;
+       }
+
+.image-container {
+  position: relative;
+  width: 2000px; /* Adjust based on your image size */
+  height: 750px; /* Adjust based on your image size */
+  font-family: Arial, sans-serif; /* Optional: Customize font */
+}
+
+/* Image styles */
+
+/* Overlay text styles */
+.text-overlay {
+  position: absolute;
+  top: 50%; /* Centers the text vertically */
+  left: 35%; /* Centers the text horizontally */
+  transform: translate(-50%, -50%); /* Adjusts for centering */
+  color: white; /* Text color */
+  font-size: 100px; /* Bigger font size */
+  font-weight: bold; /* Bold text for emphasis */
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8); /* Adds shadow for readability */
+  z-index: 1; /* Ensures the text is on top of the image */
+  text-align: center; /* Center aligns the text */
+  padding: 10px; /* Optional: Adds some spacing around the text */
+}
+
+
+.centered-paragraph {
+    width: 50%; /* Adjust the width as needed (e.g., 50% of the page) */
+    margin: 50px auto; /* Center the paragraph horizontally and add vertical spacing */
+    text-align: center; /* Optional: Center-align the text itself */
+}
+
+.table{
+    /*border:2px solid black ;*/
+    color: gray;
+    text-align:left;
+    text-color: gray;
+    margin-left:100px ;
+    width:700px;
+    height:20px;
+}
+input[type='text'], input[type="tel"], input[type="email"] {
+    display: inline-block;
+    width: 100%;
+    height: 15px;
+    border: 0;
+    outline: 0;
+    border-bottom:2px solid black;
+
+}
+.text-border {
+    border: 2px solid black; /* Border color and thickness */
+    margin-right:50px ;
+    padding: 10px;           /* Space between text and border */
+    width: 250px;            /* Fixed width for the border */
+    display: inline-block;   /* Keeps the text within the border */
+    border-radius:10% ;
+ }
+
+.text-border:hover {
+	border-top: 5px solid red; /* Change top border to thin and red */
+	border-right: 2px solid black; /* Preserve the other borders */
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+}
